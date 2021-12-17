@@ -1,13 +1,3 @@
---===UIUserTBDefDef.lua
--- (c) copyright 2018, Tencent
--- All Rights Reserved.
---=======================================
--- filename:  UIUserTBDefDef.lua
--- author:
--- created:   2018/01/17
--- descrip:   OpenPanel 时给Panel 传递的UserData Table结构定义
---=======================================
-
 --用来区分nil
 local USERTB_NIL = "33A3649E-53B4"
 

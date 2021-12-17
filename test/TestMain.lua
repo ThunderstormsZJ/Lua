@@ -1,11 +1,17 @@
----@type UIUserTB
-local UIUserTB = require("UICore.UIUserTB")
 
----@type LogSuccDialogUserTB
-local TB = UIUserTB:New("LogSuccDialogUserTB")
-TB.ContentText = "Content"
-TB.QRCodeContent = "RCode"
-TB.TitleText = "Title"
+-- print("Memory:" .. collectgarbage("count"))
 
+local a = os.clock()
 
-print(TB)
+local s = ''
+local t = {}
+
+for i = 1,3000000 do
+	t[#t + 1] = 'a'
+end
+
+s = table.concat(t, "")
+
+local b = os.clock()
+
+print(b - a)

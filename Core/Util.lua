@@ -1,6 +1,4 @@
 --====Util.lua
--- (c) copyright 2014, Tencent
--- All Rights Reserved.
 --=======================================
 
 ----------------------------------------------------
@@ -18,7 +16,6 @@ LogConfig = {
 
 --=======================================
 -- function:  Assert
--- author:    johnduan
 -- created:   2014/8/5
 -- returns:
 -- descrip:
@@ -66,7 +63,6 @@ end
 
 --=======================================
 -- function:   GetLuaString
--- author:     hopli
 -- created:    2017/05/22
 -- returns:
 -- descrip:    为了简单方便调用LUA字符串的GetString
@@ -88,7 +84,6 @@ end
 
 --=======================================
 -- function:CharArr2String
--- author:    johnduan
 -- created:   2014/8/23
 -- returns:
 -- descrip: 将服务器解码的char[]变成string
@@ -103,7 +98,6 @@ end
 
 --=======================================
 -- function:   IntArr2String
--- author:     albertzhong
 -- created:
 -- returns:
 -- descrip:
@@ -125,7 +119,6 @@ end
 
 --=======================================
 -- function:   StrArr2String
--- author:     albertzhong
 -- created:
 -- returns:
 -- descrip:
@@ -147,7 +140,6 @@ end
 
 --=======================================
 -- function:   ShuffleTable
--- author:     albertzhong
 -- created:
 -- returns:
 -- descrip:    打乱列表里面的元素
@@ -171,7 +163,6 @@ end
 
 --=======================================
 -- function:  CollectGarbage
--- author:    johnduan
 -- created:   2015/1/6
 -- descrip:   封装lua的垃圾回收
 --=======================================
@@ -182,7 +173,6 @@ end
 
 --=======================================
 -- function:  StepGarbage
--- author:    johnduan
 -- created:   2016/12/4
 -- descrip:
 --=======================================
@@ -196,7 +186,6 @@ end
 
 --=======================================
 -- function:  DumpStack
--- author:    johnduan
 -- created:   2015/7/27
 -- descrip:   打印调用堆栈
 --=======================================
@@ -220,7 +209,6 @@ end
 
 --=======================================
 -- function:  DumpObject
--- author:    johnduan
 -- created:   2014/8/23
 -- returns:
 -- descrip:
@@ -231,7 +219,6 @@ end
 
 --=======================================
 -- function:  file_exists
--- author:    Ares
 -- created:   2016/04/5
 -- returns:
 -- descrip:   判断文件是否存在
@@ -269,7 +256,6 @@ end
 
 --=======================================
 -- function:   BeEditorMode
--- author:     hopli
 -- created:    2017/10/13
 -- returns:
 -- descrip:    是否windows上面使用Unity开发环境
@@ -282,7 +268,6 @@ end
 
 --=======================================
 -- function:   ToInt32
--- author:     hopli
 -- created:    2017/10/13
 -- returns:
 -- descrip:    C# 对象转int
@@ -299,7 +284,6 @@ end
 
 --=======================================
 -- function:   SetSuperClass
--- author:     hopli
 -- created:    2017/10/16
 -- returns:
 -- descrip:    设置基类(超类)
@@ -311,7 +295,6 @@ end
 
 --=======================================
 -- function:   TODO
--- author:     hopli
 -- created:    2017/10/16
 -- returns:
 -- descrip:
@@ -332,7 +315,6 @@ end
 
 --=======================================
 -- function:   IsNumber
--- author:     hopli
 -- created:    2017/10/25
 -- returns:
 -- descrip:    是否number类型
@@ -343,7 +325,6 @@ end
 
 --=======================================
 -- function:   IsString
--- author:     hopli
 -- created:    2017/10/25
 -- returns:
 -- descrip:    是否字符串类型
@@ -355,7 +336,6 @@ end
 
 --=======================================
 -- function:   IsTable
--- author:     hopli
 -- created:    2017/10/25
 -- returns:
 -- descrip:    是否table类型
@@ -508,7 +488,6 @@ end
 
 --=======================================
 -- function:   JsonDecode
--- author:     johnduan
 -- created:    2017/11/24
 -- returns:
 -- descrip:    从炫斗移植过来， 将json转成table
@@ -532,7 +511,6 @@ end
 
 --=======================================
 -- function:   StrFormat
--- author:     johnduan
 -- created:    2018/3/23
 -- returns:
 -- descrip:    保护格式化字符串不崩溃
@@ -603,7 +581,6 @@ end
 
 --=======================================
 -- function:   LogFatal
--- author:     hopli
 -- created:    2017/11/27
 -- returns:
 -- descrip:    致命日志
@@ -615,7 +592,6 @@ end
 
 --=======================================
 -- function:   LogError
--- author:     hopli
 -- created:    2017/11/27
 -- returns:
 -- descrip:    错误日志
@@ -633,7 +609,6 @@ end
 
 --=======================================
 -- function:   LogErrorWithoutRaise
--- author:     hopli
 -- created:    2017/11/27
 -- returns:
 -- descrip:    错误日志
@@ -736,7 +711,6 @@ end
 
 --=======================================
 -- function:   LogFlow
--- author:     hopli
 -- created:    2017/11/27
 -- returns:
 -- descrip:    Flow日志
@@ -749,7 +723,6 @@ end
 
 --=======================================
 -- function:   LogInfo
--- author:     hopli
 -- created:    2017/11/27
 -- returns:
 -- descrip:    LogInfo 日志
@@ -762,7 +735,6 @@ end
 
 --=======================================
 -- function:   LogWarning
--- author:     hopli
 -- created:    2017/11/27
 -- returns:
 -- descrip:    LogWarning 日志
@@ -775,7 +747,6 @@ end
 
 --=======================================
 -- function:   LogDebug
--- author:     hopli
 -- created:    2017/11/27
 -- returns:
 -- descrip:    LogDebug 日志
@@ -837,7 +808,6 @@ end
 
 --=======================================
 -- function:   And
--- author:     hopli
 -- created:    2017/11/27
 -- returns:
 -- descrip:    与操作符
@@ -849,7 +819,6 @@ end
 
 --=======================================
 -- function:   Or
--- author:     hopli
 -- created:    2017/11/27
 -- returns:
 -- descrip:    或操作符
@@ -861,8 +830,6 @@ function Or(l, r)
 end
 
 --=======================================
--- function:
--- author:     zezhongwang
 -- descrip:    左移操作
 --=======================================
 function LShift(l, r)
@@ -870,8 +837,6 @@ function LShift(l, r)
 end
 
 --=======================================
--- function:
--- author:     zezhongwang
 -- descrip:    右移操作
 --=======================================
 function RShift(l, r)
@@ -963,7 +928,7 @@ end
 
 --=======================================
 -- function:   LogFlow
--- author:     albertzhong
+
 -- created:
 -- returns:
 -- descrip:    私人日志
@@ -976,7 +941,6 @@ end
 
 --=======================================
 -- function:   TableDumpPrivate
--- author:     albertzhong
 -- created:
 -- returns:
 -- descrip:    私人导出表日志
@@ -1018,7 +982,6 @@ end
 
 --=======================================
 -- function:   RunFunc
--- author:     hopli
 -- created:    2017/07/29
 -- returns:
 -- descrip:    执行一个lua函数，通常用以回调
@@ -1034,7 +997,6 @@ end
 
 --=======================================
 -- function:  DumpLocals
--- author:    hopli
 -- created:   2018/11/17
 -- descrip:   打印当前所有局部变量，Upval，调试使用
 --=======================================

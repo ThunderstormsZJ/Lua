@@ -152,7 +152,6 @@ end
 
 --=======================================
 -- function:   find_if
--- author:     hopli
 -- created:    2017/09/11
 -- returns:    
 -- descrip:    
@@ -172,7 +171,6 @@ end
 
 --=======================================
 -- function:   remove_val_first
--- author:     hopli
 -- created:    2017/09/11
 -- returns:    
 -- descrip:    删除一次指定value
@@ -201,7 +199,6 @@ end
 
 --=======================================
 -- function:   remove_val
--- author:     hopli
 -- created:    2017/09/11
 -- returns:    
 -- descrip:    递归删除所有指定value
@@ -218,7 +215,6 @@ end
 
 --=======================================
 -- function:   remove_if_first
--- author:     hopli
 -- created:    2017/09/16
 -- returns:    
 -- descrip:    删除符合提交的第一个值
@@ -240,7 +236,6 @@ end
 
 --=======================================
 -- function:   remove_if
--- author:     hopli
 -- created:    2017/09/16
 -- returns:    
 -- descrip:    递归删除所有符合条件的value
@@ -258,7 +253,6 @@ end
 
 --=======================================
 -- function:   cmp
--- author:     hopli
 -- created:    2017/09/11
 -- returns:    
 -- descrip:    两个table比较，只比较第一层
@@ -291,7 +285,6 @@ end
 
 --=======================================
 -- function:   dump
--- author:     
 -- created:    2017/09/18
 -- returns:    
 -- descrip:    输出table的每个字段
@@ -374,7 +367,6 @@ end
 
 --=======================================
 -- function:   resize
--- author:     hopli
 -- created:    2017/10/16
 -- returns:    
 -- descrip:    重新调整t的容量大小，并以init_val进行初始化，通常用于数组等类型
